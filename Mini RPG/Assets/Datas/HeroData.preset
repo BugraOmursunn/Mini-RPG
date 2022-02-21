@@ -1,0 +1,385 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HeroData
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: d2d8c8a7f8d620046aca6a18b80f9435,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: MaxHeroNumber
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CurrentHeroNumber
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.size
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[0].IsUnlocked
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[0].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 7b36d1200518fc14e8ae7b998f0431b1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[0].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: f7e10669e65b19546878849689761131,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[0].Name
+    value: Constantine
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[0].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[0].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[0].Health
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[0].AttackPower
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[1].IsUnlocked
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[1].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 75aa48c1b2b6c4c439730c82c6e01cb9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[1].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: 57de308115840644c92bd10942b5d427,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[1].Name
+    value: Nerva
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[1].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[1].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[1].Health
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[1].AttackPower
+    value: 13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[2].IsUnlocked
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[2].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 1691373945d99034ab15f6e44663503f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[2].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: 359fcd111092ff9419d2949e3afb5a51,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[2].Name
+    value: Trajan
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[2].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[2].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[2].Health
+    value: 110
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[2].AttackPower
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[3].IsUnlocked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[3].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: fe8d7f3a989cff9439fa969b30fb4ee7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[3].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: e4fc293d61ff435469dab7bdb3ba6e3a,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[3].Name
+    value: Claudius
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[3].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[3].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[3].Health
+    value: 120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[3].AttackPower
+    value: 13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[4].IsUnlocked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[4].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 7b992709ea296ef418f9860ac3384b00, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[4].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: 9066ff09de44ce0419e9740a96cf5ec9,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[4].Name
+    value: Aurelius
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[4].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[4].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[4].Health
+    value: 120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[4].AttackPower
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[5].IsUnlocked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[5].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 2535451408a59c24a8dd809b2d7d520b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[5].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: 7bbb4c555d0c7fe4687a13f0f94ef6a2,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[5].Name
+    value: Theresa
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[5].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[5].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[5].Health
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[5].AttackPower
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[6].IsUnlocked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[6].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 07cfebca239722743a5efd11e63208d8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[6].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: 05c3b0abf6f49b9449c607c23d5f8834,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[6].Name
+    value: Victoria
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[6].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[6].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[6].Health
+    value: 110
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[6].AttackPower
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[7].IsUnlocked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[7].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 6e9cd17f3893cee40879d2a817a0591e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[7].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: e4de08f30f7695b44a321f62638792a8,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[7].Name
+    value: Nefertiti
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[7].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[7].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[7].Health
+    value: 120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[7].AttackPower
+    value: 16
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[8].IsUnlocked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[8].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 201a6ad3433746941982e0130a87fd3b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[8].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: 8a31ad60b9d28bc41b4cee2f25ddfd1d,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[8].Name
+    value: Theodora
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[8].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[8].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[8].Health
+    value: 90
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[8].AttackPower
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[9].IsUnlocked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[9].HeroImage
+    value: 
+    objectReference: {fileID: 21300000, guid: b60926d45faf83745b73911e5c4ab8fc, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[9].HeroPrefab
+    value: 
+    objectReference: {fileID: 6556445517660899550, guid: ee88c00dbdcef154f8084ffb9cb69431,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[9].Name
+    value: Cleopatra
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[9].Level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[9].Experince
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[9].Health
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Heroes.Array.data[9].AttackPower
+    value: 18
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SelectedHeroesIndex.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SelectedHeroesIndex.Array.data[0]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SelectedHeroesIndex.Array.data[1]
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SelectedHeroesIndex.Array.data[2]
+    value: 2
+    objectReference: {fileID: 0}

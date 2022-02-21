@@ -21,7 +21,7 @@ MonoBehaviour:
       type: 3}
     Name: Constantine
     Level: 1
-    Experince: 1
+    Experince: 0
     Health: 100
     AttackPower: 14
   - IsUnlocked: 1
@@ -30,7 +30,7 @@ MonoBehaviour:
       type: 3}
     Name: Nerva
     Level: 1
-    Experince: 1
+    Experince: 0
     Health: 100
     AttackPower: 13
   - IsUnlocked: 1
@@ -39,7 +39,7 @@ MonoBehaviour:
       type: 3}
     Name: Trajan
     Level: 1
-    Experince: 1
+    Experince: 0
     Health: 110
     AttackPower: 14
   - IsUnlocked: 0
